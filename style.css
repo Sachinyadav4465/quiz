@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrappper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+}
+.welcome_text
+{
+   
+    width: 400px;
+
+}
+.welcom_form input,
+.welcom_form button{
+    display: block;
+    width: 100%;
+
+}
+.welcom_form input {
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.welcom_form button {
+    padding: 20px,0;
+    font-size: 22px;
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    color: blue;
+    transition: 0.4s all;
+
+}
+.welcom_form button:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+    background-color: black;
+}
+.welcom_form input:focus,
+.welcom_form button:focus{
+    outline: none;
+}
+.quiz{
+    border-radius: 3px;
+    display: grid;
+    grid-template-rows: 60px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #fff;
+}
+.quiz_header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.quiz_body{
+    background-color:#ecf0f1;
+    padding: 30px;
+
+}
+.quiz_user{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.quiz_timer{
+    display: flex;
+    align-items: center;
+    background-color: #341f97;
+    color: #fff;
+    padding: 0 30px;
+
+
+}
+
+.option_group{
+    list-style-type: none;
+    margin: 30px 0;
+}
+.option{
+    background-color: #fff;
+    width: 300px;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 100px;
+    border: 2px transparent;
+
+}
+.option:hover{
+    cursor: pointer;
+    border: 3px solid black;
+    color: gray;
+}
+.btn-next{
+    background-color:blue;
+    color: #ecf0f1;
+    padding: 15px 35px;
+    border: none;
+border-radius: 27px;
+transition: 0.4s all;
+}
+
+.btn-next:hover{
+    cursor: pointer;
+    background-color:red;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.3) ;
+}
+
+.active{
+    background-color: violet;
+    color: #fff;
+}
+
+
+.award_icon{
+    font-size: 200px;
+    color: #fff;
+}
+
+.user_name,
+.user_point,
+.user_time
+{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
